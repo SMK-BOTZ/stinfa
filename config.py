@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "24509589"))
-API_HASH = getenv("API_HASH", "717cf21d94c4934bcbe1eaa1ad86ae75")
+API_ID = int(getenv("API_ID", "28243586"))
+API_HASH = getenv("API_HASH", "4022d5686b9b7a7cf8891205921a0ab3")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7493562717:AAH9DGdNRk5g_kCQ6hxLR39szY-WacI8At0")
-OWNER_ID = int(getenv("OWNER_ID", "7427691214"))
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://MRDAXX:MRDAXX@mrdaxx.prky3aj.mongodb.net/?retryWrites=true&w=majority")
-MUST_JOIN = getenv("MUST_JOIN", "gitwizardbypass")
+BOT_TOKEN = getenv("BOT_TOKEN", "7714254527:AAFU4rOeoaab_T4ytlf0G_TQMXZFOTDcekI")
+OWNER_ID = int(getenv("OWNER_ID", "6551906246"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madarazbotz:IMpkK5ZoxUNI89Xu@cluster0.vufqb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MUST_JOIN = getenv("MUST_JOIN", "vr_unreal")
 DAXX_API = getenv("DAXX_API", "daxx-1490?api+key:free")
